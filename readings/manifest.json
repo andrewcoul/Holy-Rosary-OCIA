@@ -1,33 +1,203 @@
 {
   "class-01": [],
   "class-02": [
-    {"title": "CCC Selections on God and Creation", "file": "readings/class-02/CCC selections on God and Creation.pdf"},
-    {"title": "Catholic Christianity - Selections on God and Creation", "file": "readings/class-02/Catholic Christianity - Selections on God and Creation.pdf"}
+    {
+      "title": "CCC selections on God and Creation",
+      "file": "readings/class-02/CCC selections on God and Creation.pdf"
+    },
+    {
+      "title": "Catholic Christianity - Selections on God and Creation",
+      "file": "readings/class-02/Catholic Christianity - Selections on God and Creation.pdf"
+    }
   ],
-  "class-03": [],
-  "class-04": [],
-  "class-05": [],
-  "class-06": [],
-  "class-07": [],
-  "class-08": [],
-  "class-09": [],
-  "class-10": [],
-  "class-11": [],
-  "class-12": [],
-  "class-13": [],
-  "class-14": [],
-  "class-15": [],
-  "class-16": [],
-  "class-17": [],
-  "class-18": [],
-  "class-19": [],
-  "class-20": [],
-  "class-21": [],
-  "class-22": [],
-  "class-23": [],
-  "class-24": [],
-  "class-25": [],
-  "class-26": [],
+  "class-03": [
+    {
+      "title": "CCC selections on Interpreting the Bible",
+      "file": "readings/class-03/CCC selections on Interpreting the Bible.pdf"
+    },
+    {
+      "title": "Dei Verbum",
+      "file": "readings/class-03/Dei Verbum.pdf"
+    }
+  ],
+  "class-04": [
+    {
+      "title": "CCC Selections on Prayer",
+      "file": "readings/class-04/CCC Selections on Prayer.pdf"
+    },
+    {
+      "title": "Catholic Christianity - Selections on Prayer",
+      "file": "readings/class-04/Catholic Christianity - Selections on Prayer.pdf"
+    },
+    {
+      "title": "Guide-to-the-Mass-English",
+      "file": "readings/class-04/Guide-to-the-Mass-English.pdf"
+    }
+  ],
+  "class-05": [
+    {
+      "title": "CCC selections Man made in the image of God",
+      "file": "readings/class-05/CCC selections Man made in the image of God.pdf"
+    },
+    {
+      "title": "Catholic Christianity Selections on Man",
+      "file": "readings/class-05/Catholic Christianity Selections on Man.pdf"
+    }
+  ],
+  "class-06": [
+    {
+      "title": "CCC selections on Sin+Genesis 3",
+      "file": "readings/class-06/CCC selections on Sin+Genesis 3.pdf"
+    },
+    {
+      "title": "Catholic Christianity - Selections on Original Sin",
+      "file": "readings/class-06/Catholic Christianity - Selections on Original Sin.pdf"
+    }
+  ],
+  "class-07": [
+    {
+      "title": "Genesis 4-11 selections",
+      "file": "readings/class-07/Genesis 4-11 selections.pdf"
+    },
+    {
+      "title": "Sin as threefold alienation",
+      "file": "readings/class-07/Sin as threefold alienation.pdf"
+    }
+  ],
+  "class-08": [
+    {
+      "title": "CCC selections on covenants",
+      "file": "readings/class-08/CCC selections on covenants.pdf"
+    }
+  ],
+  "class-09": [
+    {
+      "title": "Scripture Reading on Messiah in Old Testament",
+      "file": "readings/class-09/Scripture Reading on Messiah in Old Testament.pdf"
+    }
+  ],
+  "class-10": [
+    {
+      "title": "CCC selections on the Incarnation",
+      "file": "readings/class-10/CCC selections on the Incarnation.pdf"
+    },
+    {
+      "title": "Catholic Christianity - Selections on The Incarnation",
+      "file": "readings/class-10/Catholic Christianity - Selections on The Incarnation.pdf"
+    }
+  ],
+  "class-11": [
+    {
+      "title": "CCC selections on Jesus' Crucifixion",
+      "file": "readings/class-11/CCC selections on Jesus' Crucifixion.pdf"
+    },
+    {
+      "title": "Introduction to Christianity Selections on the Crucifixion",
+      "file": "readings/class-11/Introduction to Christianity Selections on the Crucifixion.pdf"
+    }
+  ],
+  "class-12": [
+    {
+      "title": "CCC selections on the Resurrection",
+      "file": "readings/class-12/CCC selections on the Resurrection.pdf"
+    }
+  ],
+  "class-13": [
+    {
+      "title": "CCC selections on the Trinity",
+      "file": "readings/class-13/CCC selections on the Trinity.pdf"
+    }
+  ],
+  "class-14": [
+    {
+      "title": "Introduction to Christianity - Belief in the Triune God Excerpt",
+      "file": "readings/class-14/Introduction to Christianity - Belief in the Triune God Excerpt.pdf"
+    },
+    {
+      "title": "The Trinity - Catholicism",
+      "file": "readings/class-14/The Trinity - Catholicism.pdf"
+    }
+  ],
+  "class-15": [
+    {
+      "title": "CCC selections on the Church Founding and Marks",
+      "file": "readings/class-15/CCC selections on the Church Founding and Marks.pdf"
+    }
+  ],
+  "class-16": [
+    {
+      "title": "CCC selections on the marks of the Church",
+      "file": "readings/class-16/CCC selections on the marks of the Church.pdf"
+    }
+  ],
+  "class-17": [
+    {
+      "title": "CCC selections on the Hierarchy of the Church",
+      "file": "readings/class-17/CCC selections on the Hierarchy of the Church.pdf"
+    },
+    {
+      "title": "Lumen Gentium - The Laity and The Universal Call to Holiness",
+      "file": "readings/class-17/Lumen Gentium - The Laity and The Universal Call to Holiness.pdf"
+    }
+  ],
+  "class-18": [
+    {
+      "title": "CCC selections on The Church and Conscience",
+      "file": "readings/class-18/CCC selections on The Church and Conscience.pdf"
+    }
+  ],
+  "class-19": [
+    {
+      "title": "CCC selections Grace and Justification",
+      "file": "readings/class-19/CCC selections Grace and Justification.pdf"
+    }
+  ],
+  "class-20": [
+    {
+      "title": "CCC selections on Sacraments in General and Reconciliation",
+      "file": "readings/class-20/CCC selections on Sacraments in General and Reconciliation.pdf"
+    }
+  ],
+  "class-21": [
+    {
+      "title": "CCC selections on Baptism and Confirmation",
+      "file": "readings/class-21/CCC selections on Baptism and Confirmation.pdf"
+    }
+  ],
+  "class-22": [
+    {
+      "title": "CCC selections on the Eucharist",
+      "file": "readings/class-22/CCC selections on the Eucharist.pdf"
+    },
+    {
+      "title": "Wedding Feast of the Lamb - Excerpts",
+      "file": "readings/class-22/Wedding Feast of the Lamb - Excerpts.pdf"
+    }
+  ],
+  "class-23": [
+    {
+      "title": "CCC selections on Matrimony",
+      "file": "readings/class-23/CCC selections on Matrimony.pdf"
+    }
+  ],
+  "class-24": [
+    {
+      "title": "CCC selections on Holy Orders",
+      "file": "readings/class-24/CCC selections on Holy Orders.pdf"
+    }
+  ],
+  "class-25": [
+    {
+      "title": "CCC selections on Mary",
+      "file": "readings/class-25/CCC selections on Mary.pdf"
+    }
+  ],
+  "class-26": [
+    {
+      "title": "CCC selections on Life Everlasting",
+      "file": "readings/class-26/CCC selections on Life Everlasting.pdf"
+    }
+  ],
   "class-27": [],
   "class-28": [],
   "class-29": []
