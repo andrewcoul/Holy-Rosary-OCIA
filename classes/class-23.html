@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Class #23 · OCIA</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <a href="../index.html" class="back-link">← All Classes</a>
+    <h1>Class #23</h1>
+  </header>
+  <main>
+    <div class="tabs">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="notes">Notes</button>
+        <button class="tab-btn" data-tab="readings">Readings</button>
+        <button class="tab-btn" data-tab="videos">Videos</button>
+      </div>
+      <div class="tab-panel active" id="tab-notes">
+        <div class="notes-body">
+        </div>
+      </div>
+      <div class="tab-panel" id="tab-readings">
+        <div id="readings-container" data-class="class-23"></div>
+      </div>
+      <div class="tab-panel" id="tab-videos">
+        <div id="videos-container" data-class="class-23"></div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="page-nav">
+    <span class="prev-link"><a href="class-22.html">← Class #22: The Eucharist</a></span>
+    <span class="next-link"><a href="class-24.html">Class #24: Holy Orders <span class="arrow">→</span> </a></span>
+  </nav>
+
+  <footer><p>Personal notes — not for redistribution.</p></footer>
+
+  <script>
+    (function () {
+      document.querySelectorAll('.tab-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          document.querySelectorAll('.tab-btn').forEach(function (b) { b.classList.remove('active'); });
+          document.querySelectorAll('.tab-panel').forEach(function (p) { p.classList.remove('active'); });
+          btn.classList.add('active');
+          document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+        });
+      });
+
+      var key = document.getElementById('readings-container').dataset.class;
+      fetch('../readings/manifest.json')
+        .then(function (r) { return r.json(); })
+        .then(function (manifest) {
+          var container = document.getElementById('readings-container');
+          var pdfs = manifest[key] || [];
+          if (!pdfs.length) {
+            container.innerHTML = '<p class="no-readings">No readings have been added yet.</p>';
+          } else {
+            var html = '';
+            pdfs.forEach(function (pdf) {
+              html += '<div class="pdf-viewer">'
+                + '<h3>' + pdf.title + '</h3>'
+                + '<iframe src="../' + pdf.file + '" width="100%" height="800px" title="' + pdf.title + '">'
+                + '<p>Your browser cannot display this PDF inline. '
+                + '<a href="../' + pdf.file + '">Download it here</a>.</p>'
+                + '</iframe></div>';
+            });
+            container.innerHTML = html;
+          }
+        })
+        .catch(function () {
+          document.getElementById('readings-container').innerHTML =
+            '<p class="no-readings">Readings unavailable (open via a web server, not file://).</p>';
+        });
+
+      // Load videos from manifest
+      var vkey = document.getElementById('videos-container').dataset.class;
+      fetch('../videos/manifest.json')
+        .then(function (r) { return r.json(); })
+        .then(function (manifest) {
+          var container = document.getElementById('videos-container');
+          var videos = manifest[vkey] || [];
+          if (!videos.length) {
+            container.innerHTML = '<p class="no-readings">No videos have been added yet.</p>';
+          } else {
+            var html = '';
+            videos.forEach(function (v) {
+              html += '<div class="video-player">'
+                + '<h3>' + v.title + '</h3>'
+                + '<iframe width="100%" height="480" src="https://www.youtube.com/embed/' + v.youtube_id + '" frameborder="0" allowfullscreen></iframe>'
+                + '</div>';
+            });
+            container.innerHTML = html;
+          }
+        })
+        .catch(function () {
+          document.getElementById('videos-container').innerHTML =
+            '<p class="no-readings">Videos unavailable (open via a web server, not file://).</p>';
+        });
+    })();
+  </script>
+</body>
+</html>
