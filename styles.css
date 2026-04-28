@@ -242,6 +242,10 @@ header h1 {
   background: #fff;
 }
 
+.pdf-open-link {
+  display: none;
+}
+
 /* ── Prev / next navigation ── */
 
 .page-nav {
@@ -317,6 +321,19 @@ footer {
   }
 
   .pdf-viewer iframe {
-    height: 500px;
+    display: none;
+  }
+
+  .pdf-open-link {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.6rem 1.2rem;
+    background: #8b0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
   }
 }

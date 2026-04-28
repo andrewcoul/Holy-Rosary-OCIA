@@ -68,7 +68,9 @@
                 + '<iframe src="../' + pdf.file + '" width="100%" height="800px" title="' + pdf.title + '">'
                 + '<p>Your browser cannot display this PDF inline. '
                 + '<a href="../' + pdf.file + '">Download it here</a>.</p>'
-                + '</iframe></div>';
+                + '</iframe>'
+                + '<a class="pdf-open-link" href="../' + pdf.file + '" target="_blank">Open PDF</a>'
+                + '</div>';
             });
             container.innerHTML = html;
           }
