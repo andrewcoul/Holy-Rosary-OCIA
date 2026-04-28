@@ -12,6 +12,14 @@ body {
   background: #fdfcfa;
 }
 
+a {
+  color: #8b0000;
+}
+
+a:visited {
+  color: #8b0000;
+}
+
 /* ── Header ── */
 
 header {
