@@ -37,8 +37,21 @@ header h1 {
 
 .site-nav {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   margin-top: 0.9rem;
+}
+
+.site-nav-btn::after {
+  content: ' —';
+  color: #bbb;
+  margin-left: 0.5rem;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.site-nav-btn:last-child::after {
+  content: '';
 }
 
 .site-nav-btn {
@@ -70,8 +83,9 @@ header h1 {
 
 /* ── Homepage class list ── */
 
-.class-list ol {
-  padding-left: 1.5rem;
+.class-list ul {
+  list-style: none;
+  padding-left: 0;
   margin: 0;
 }
 
@@ -244,6 +258,41 @@ header h1 {
 
 .pdf-open-link {
   display: none;
+}
+
+/* ── Reading list ── */
+
+.reading-list section {
+  margin-bottom: 2.5rem;
+}
+
+.reading-list h2 {
+  font-size: 1.2rem;
+  color: #111;
+  margin: 0 0 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-weight: 700;
+}
+
+.reading-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reading-list li {
+  margin: 0.4rem 0;
+}
+
+.reading-list a {
+  color: #8b0000;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.reading-list a:hover {
+  text-decoration: underline;
 }
 
 /* ── Prev / next navigation ── */
