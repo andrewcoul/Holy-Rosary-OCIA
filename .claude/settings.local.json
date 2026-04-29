@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:usccb.cld.bz)",
-      "WebFetch(domain:bible.usccb.org)"
+      "WebFetch(domain:bible.usccb.org)",
+      "WebFetch(domain:www.youtube.com)"
     ]
   }
 }
