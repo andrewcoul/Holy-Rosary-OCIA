@@ -66,6 +66,13 @@ header h1 {
   align-items: center;
   gap: 0.5rem;
   margin-top: 0.9rem;
+  padding-left: calc(110px + 1rem);
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    padding-left: 0;
+  }
 }
 
 .site-nav-btn::after {
