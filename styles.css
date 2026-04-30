@@ -28,6 +28,24 @@ header {
   margin-bottom: 2rem;
 }
 
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-logo {
+  height: 110px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 header h1 {
   font-size: 1.9rem;
   margin: 0.25rem 0 0.2rem;
