@@ -55,7 +55,7 @@ header h1 {
 .subtitle {
   color: #666;
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-style: italic;
 }
 
@@ -64,28 +64,10 @@ header h1 {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   margin-top: 0.9rem;
-  padding-left: calc(110px + 1rem);
 }
 
-@media (max-width: 600px) {
-  .site-nav {
-    padding-left: 0;
-  }
-}
-
-.site-nav-btn::after {
-  content: ' —';
-  color: #bbb;
-  margin-left: 0.5rem;
-  font-weight: 400;
-  display: inline-block;
-}
-
-.site-nav-btn:last-child::after {
-  content: '';
-}
 
 .site-nav-btn {
   font-size: 1.1rem;
